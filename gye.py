@@ -94,7 +94,7 @@ def sendMessageWithMention(to, mid):
         
 def helpmessage():
     helpMessage = "╭════════╬🔛╬════════╮" + "\n" + \
-                  "║͜͡☆➣ Ǥﾘ乇 Џんﾑ 乃Ծｲ丂" + "\n" + \
+                  "║͜͡☆➣สาสโอ้ งาย จะใครละ" + "\n" + \
                   "╰════════╬🔛╬════════╯" + "\n" + \
                   "╭════════╬🔛╬════════╮" + "\n" + \
                   "║͜͡☆➣ คำสั่ง" + "\n" + \
@@ -116,13 +116,13 @@ def helpmessage():
                   "║͜͡☆➣☯ Kickallmember" + "\n" + \
                   "╰════════╬🔛╬════════╯" + "\n" + \
                   "╭════════╬🔛╬════════╮" + "\n" + \
-                  "║͜͡☆➣ Ǥﾘ乇 Џんﾑ 乃Ծｲ丂" + "\n" + \
+                  "║͜͡☆➣สาสโอ้ งาย จะใครละ" + "\n" + \
                   "╰════════╬🔛╬════════╯"
     return helpMessage
     
 def helptexttospeech():
     helpTextToSpeech =   "╭════════╬🔛╬════════╮" + "\n" + \
-                  "║͜͡☆➣ Ǥﾘ乇 Џんﾑ 乃Ծｲ丂" + "\n" + \
+                  "║͜͡☆➣สาสโอ้ งาย จะใครละ" + "\n" + \
                   "╰════════╬🔛╬════════╯" + "\n" + \
                   "╭════════╬🔛╬════════╮" + "\n" + \
                   "║͜͡☆➣ คำสั่ง1" + "\n" + \
@@ -158,13 +158,13 @@ def helptexttospeech():
                   "║͜͡☆➣☯ Lurking" + "\n" + \
                   "╰════════╬🔛╬════════╯" + "\n" + \
                   "╭════════╬🔛╬════════╮" + "\n" + \
-                  "║͜͡☆➣ Ǥﾘ乇 Џんﾑ 乃Ծｲ丂" + "\n" + \
+                  "║͜͡☆➣สาสโอ้ งาย จะใครละ" + "\n" + \
                   "╰════════╬🔛╬════════╯"
     return helpTextToSpeech
     
 def helptranslate():
     helpTranslate =    "╭════════╬🔛╬════════╮" + "\n" + \
-                  "║͜͡☆➣ Ǥﾘ乇 Џんﾑ 乃Ծｲ丂" + "\n" + \
+                  "║͜͡☆➣สาสโอ้ งาย จะใครละ" + "\n" + \
                   "╰════════╬🔛╬════════╯" + "\n" + \
                   "╭════════╬🔛╬════════╮" + "\n" + \
                   "║͜͡☆➣ HELP2" + "\n" + \
@@ -178,14 +178,14 @@ def helptranslate():
                   "║͜͡☆➣☯ Clearban" + "\n" + \
                   "║͜͡☆➣☯ Restart" + "\n" + \
                   "║͜͡☆➣☯ ข้อมูลเรา" + "\n" + \
-                  "║͜͡☆➣☯ Me" + "\n" + \
-                  "║͜͡☆➣☯ MyMid" + "\n" + \
+                  "║͜͡☆➣☯ คท" + "\n" + \
+                  "║͜͡☆➣☯ Mid" + "\n" + \
                   "║͜͡☆➣☯ Midnya @" + "\n" + \
-                  "║͜͡☆➣☯ MyName" + "\n" + \
-                  "║͜͡☆➣☯MyBio" + "\n" + \
-                  "║͜͡☆➣☯MyPicture" + "\n" + \
-                  "║͜͡☆➣☯ MyVideoProfile" + "\n" + \
-                  "║͜͡☆➣☯MyCover" + "\n" + \
+                  "║͜͡☆➣☯ ชื่อ" + "\n" + \
+                  "║͜͡☆➣☯ ตัส" + "\n" + \
+                  "║͜͡☆➣☯ MyPicture" + "\n" + \
+                  "║͜͡☆➣☯ ดิส" + "\n" + \
+                  "║͜͡☆➣☯ รูป" + "\n" + \
                   "║͜͡☆➣☯ StealContact @" + "\n" + \
                   "║͜͡☆➣☯ StealMid @" + "\n" + \
                   "║͜͡☆➣☯ StealName「Mention」" + "\n" + \
@@ -204,11 +204,11 @@ def helptranslate():
                   "║͜͡☆➣☯ GroupList" + "\n" + \
                   "║͜͡☆➣☯ GroupMemberList" + "\n" + \
                   "║͜͡☆➣☯ GroupInfo" + "\n" + \
-                  "║͜͡☆➣☯ Ciak @" + "\n" + \
+                  "║͜͡☆➣☯ โชคดี @" + "\n" + \
                   "║͜͡☆➣☯  KickAllMember"+ "\n" + \
                   "╰════════╬🔛╬════════╯" + "\n" + \
                   "╭════════╬🔛╬════════╮" + "\n" + \
-                  "║͜͡☆➣ Ǥﾘ乇 Џんﾑ 乃Ծｲ丂" + "\n" + \
+                  "║͜͡☆➣สาสโอ้ งาย จะใครละ" + "\n" + \
                   "╰════════╬🔛╬════════╯"
     return helpTranslate
 #==============================================================================#
@@ -620,11 +620,11 @@ def lineBot(op):
                 elif text.lower() == 'ปิดแอด':
                     settings["autoAdd"] = False
                     gye.sendMessage(to, "🔜Berhasil menonaktifkan Auto Add")
-                elif text.lower() == 'autojoin on':
+                elif text.lower() == 'เปิดเข้า':
              #     if msg._from in Owner:    
                     settings["autoJoin"] = True
                     gye.sendMessage(to, "🔜Berhasil mengaktifkan Auto Join")
-                elif text.lower() == 'autojoin off':
+                elif text.lower() == 'ปิดเข้า':
                 #  if msg._from in Owner:    
                     settings["autoJoin"] = False
                     gye.sendMessage(to, "🔜Berhasil menonaktifkan Auto Join")
@@ -642,10 +642,10 @@ def lineBot(op):
                 elif text.lower() == 'autoread off':
                     settings["autoRead"] = False
                     gye.sendMessage(to, "🔜Berhasil menonaktifkan Auto Read")
-                elif text.lower() == 'checksticker on':
+                elif text.lower() == 'เปิดติ้ก':
                     settings["checkSticker"] = True
                     gye.sendMessage(to, "🔜Berhasil mengaktifkan Check Details Sticker")
-                elif text.lower() == 'checksticker off':
+                elif text.lower() == 'ปิดติ้ก':
                     settings["checkSticker"] = False
                     gye.sendMessage(to, "🔜Berhasil menonaktifkan Check Details Sticker")
                 elif text.lower() == 'detectmention on':
@@ -654,10 +654,10 @@ def lineBot(op):
                 elif text.lower() == 'detectmention off':
                     settings["datectMention"] = False
                     gye.sendMessage(to, "🔜Berhasil menonaktifkan Detect Mention")
-                elif text.lower() == 'join link on':
+                elif text.lower() == 'เปิดมุดลิ้ง':
                     settings["autoJoinTicket"] = True
                     gye.sendMessage(to, "🔜Berhasil mengaktifkan Auto Join Link")
-                elif text.lower() == 'join link off':
+                elif text.lower() == 'ปิดมุดลิ้ง':
                     settings["autoJoinTicket"] = False
                     gye.sendMessage(to, "🔜Berhasil menonaktifkan Auto Join Link")                    
 #==============================================================================#
@@ -667,14 +667,14 @@ def lineBot(op):
                 elif msg.text.lower() == 'absen':
                         ais.sendContact(to, aisMID)
                         
-                elif text.lower() in ["bye"]:
+                elif text.lower() in ["เข้า"]:
                     ais.leaveGroup(msg.to)    
                         
                 elif text.lower() in ["@pamit"]:
                     gye.leaveGroup(msg.to)
                     ais.leaveGroup(msg.to)
                     
-                elif text.lower() in ["halo"]:    
+                elif text.lower() in ["ออก"]:    
                     G = gye.getGroup(msg.to)
                     ginfo = gye.getGroup(msg.to)
                     G.preventedJoinByTicket = False
@@ -688,7 +688,7 @@ def lineBot(op):
                     G.preventedJoinByTicket(G)
                     gye.updateGroup(G)
                 
-                elif text.lower() == 'me':
+                elif text.lower() == 'คท':
                     sendMessageWithMention(to, gyeMID)
                     gye.sendContact(to, gyeMID)
                 elif text.lower() == 'mid':
@@ -705,7 +705,7 @@ def lineBot(op):
                 elif text.lower() == 'ดิส':
                     me = gye.getContact(gyeMID)
                     gye.sendVideoWithURL(msg.to,"http://dl.profile.line-cdn.net/" + me.pictureStatus + "/vp")
-                elif text.lower() == 'mycover':
+                elif text.lower() == 'รูป':
                     me = gye.getContact(gyeMID)
                     cover = gye.getProfileCoverURL(gyeMID)    
                     gye.sendImageWithURL(msg.to, cover)
