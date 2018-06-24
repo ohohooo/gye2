@@ -97,22 +97,22 @@ def helpmessage():
                   "║͜͡☆➣ Ǥﾘ乇 Џんﾑ 乃Ծｲ丂" + "\n" + \
                   "╰════════╬🔛╬════════╯" + "\n" + \
                   "╭════════╬🔛╬════════╮" + "\n" + \
-                  "║͜͡☆➣ HELP" + "\n" + \
+                  "║͜͡☆➣ คำสั่ง" + "\n" + \
                   "╰════════╬🔛╬════════╯" + "\n" + \
                   "╭════════╬🔛╬════════╮" + "\n" + \
-                  "║͜͡☆➣☯ Help 1" + "\n" + \
-                  "║͜͡☆➣☯ Help 2" + "\n" + \
-                  "║͜͡☆➣☯ Tag" + "\n" + \
-                  "║͜͡☆➣☯ Halo ( panggil bot ) " + "\n" + \
+                  "║͜͡☆➣☯ คำสั่ง1" + "\n" + \
+                  "║͜͡☆➣☯ คำสั่ง2" + "\n" + \
+                  "║͜͡☆➣☯ แทค" + "\n" + \
+                  "║͜͡☆➣☯ เข้า ( panggil bot ) " + "\n" + \
                   "║͜͡☆➣☯ Absen" + "\n" + \
                   "║͜͡☆➣☯ @pamit ( keluar Semua ) " + "\n" + \
                   "║͜͡☆➣☯ Balik ( usir bot ) " + "\n" + \
-                  "║͜͡☆➣☯ Bye " + "\n" + \
+                  "║͜͡☆➣☯ ออก " + "\n" + \
                   "║͜͡☆➣☯ Cekk ( cek semua bot )" + "\n" + \
-                  "║͜͡☆➣☯ Me" + "\n" + \
+                  "║͜͡☆➣☯ คท" + "\n" + \
                   "║͜͡☆➣☯  Sp" + "\n" + \
-                  "║͜͡☆➣☯ Status" + "\n" + \
-                  "║͜͡☆➣☯ Ciak @" + "\n" + \
+                  "║͜͡☆➣☯ เชคค่า" + "\n" + \
+                  "║͜͡☆➣☯ โชคดี @" + "\n" + \
                   "║͜͡☆➣☯ Kickallmember" + "\n" + \
                   "╰════════╬🔛╬════════╯" + "\n" + \
                   "╭════════╬🔛╬════════╮" + "\n" + \
@@ -125,16 +125,16 @@ def helptexttospeech():
                   "║͜͡☆➣ Ǥﾘ乇 Џんﾑ 乃Ծｲ丂" + "\n" + \
                   "╰════════╬🔛╬════════╯" + "\n" + \
                   "╭════════╬🔛╬════════╮" + "\n" + \
-                  "║͜͡☆➣ HELP1" + "\n" + \
+                  "║͜͡☆➣ คำสั่ง1" + "\n" + \
                   "╰════════╬🔛╬════════╯" + "\n" + \
                   "╭════════╬🔛╬════════╮" + "\n" + \
-                  "║͜͡☆➣☯ Help 1" + "\n" + \
-                  "║͜͡☆➣☯ Help 2" + "\n" + \
-                  "║͜͡☆➣☯ Protect on/off" + "\n" + \
-                  "║͜͡☆➣☯ QrProtect on/off" + "\n" + \
+                  "║͜͡☆➣☯ คำสั่ง1" + "\n" + \
+                  "║͜͡☆➣☯ คำสั่ง2" + "\n" + \
+                  "║͜͡☆➣☯ เปิดล็อค" + "\n" + \
+                  "║͜͡☆➣☯ เปิด/ปิด ล็อคลิ้ง" + "\n" + \
                   "║͜͡☆➣☯ InviteProtect on/off" + "\n" + \
                   "║͜͡☆➣☯ CancelProtect on/off" + "\n" + \
-                  "║͜͡☆➣☯ AutoAdd on/off" + "\n" + \
+                  "║͜͡☆➣☯ เปิด/ปิด แอด" + "\n" + \
                   "║͜͡☆➣☯ AutoJoin on/off" + "\n" + \
                   "║͜͡☆➣☯ AutoLeave on/off" + "\n" + \
                   "║͜͡☆➣☯ CheckSticker on/off" + "\n" + \
@@ -142,12 +142,12 @@ def helptexttospeech():
                   "║͜͡☆➣☯ DetectMention on/off" + "\n" + \
                   "║͜͡☆➣☯ Join link on/off" + "\n" + \
                   "║͜͡☆➣☯ GroupCreator" + "\n" + \
-                  "║͜͡☆➣☯ GroupId" + "\n" + \
-                  "║͜͡☆➣☯ GroupName" + "\n" + \
+                  "║͜͡☆➣☯ ไอดีกลุ่ม" + "\n" + \
+                  "║͜͡☆➣☯ ชื่อกลุ่ม" + "\n" + \
                   "║͜͡☆➣☯ GroupPicture" + "\n" + \
-                  "║͜͡☆➣☯ GroupList" + "\n" + \
+                  "║͜͡☆➣☯ กลุ่มเรา" + "\n" + \
                   "║͜͡☆➣☯ GroupMemberList" + "\n" + \
-                  "║͜͡☆➣☯ GroupInfo" + "\n" + \
+                  "║͜͡☆➣☯ ข้อมูลกลุ่ม" + "\n" + \
                   "║͜͡☆➣☯ Gt" + "\n" + \
                   "║͜͡☆➣☯ Gt on/off" + "\n" + \
                   "║͜͡☆➣☯ Mimic on" + "\n" + \
@@ -177,7 +177,7 @@ def helptranslate():
                   "║͜͡☆➣☯ BanList" + "\n" + \
                   "║͜͡☆➣☯ Clearban" + "\n" + \
                   "║͜͡☆➣☯ Restart" + "\n" + \
-                  "║͜͡☆➣☯ About" + "\n" + \
+                  "║͜͡☆➣☯ ข้อมูลเรา" + "\n" + \
                   "║͜͡☆➣☯ Me" + "\n" + \
                   "║͜͡☆➣☯ MyMid" + "\n" + \
                   "║͜͡☆➣☯ Midnya @" + "\n" + \
@@ -303,11 +303,11 @@ def lineBot(op):
                     gye.sendMessage(to, str(helpMessage))
                     gye.sendContact(to, "u104e95aaefb53cf411f77353f6a96ece")
                     gye.sendMessage(to,"Jangan Songong Ye Pake Sc Orang 􀰂􀰂􀰂􀰂􀠁✍͡Gye􏿿􀌂􀆭✯➣􏿿")
-                elif text.lower() == 'help1':
+                elif text.lower() == 'คำสั่ง1':
                     helpTextToSpeech = helptexttospeech()
                     gye.sendMessage(to, str(helpTextToSpeech))
                     ais.sendMessage(to, "Jangan Songong Ye Pake Bot Orang 􀰂􀰂􀰂􀰂􀠁✍͡Gye􏿿􀌂􀆭✯➣􏿿")
-                elif text.lower() == 'help2':
+                elif text.lower() == 'คำสั่ง2':
                     helpTranslate = helptranslate()
                     gye.sendMessage(to, str(helpTranslate))
                     gye.sendMessage(to, "Jangan Songong Ye Pake Bot Orang 􀰂􀰂􀰂􀰂􀠁✍͡Gye􏿿􀌂􀆭✯➣􏿿")
@@ -322,7 +322,7 @@ def lineBot(op):
                     time.sleep(5)
                     gye.sendMessage(to, "Restart Sukses")
                     restartBot()
-                elif text.lower() == 'runtime':
+                elif text.lower() == 'ออน':
                     timeNow = time.time()
                     runtime = timeNow - botStart
                     runtime = format_timespan(runtime)
@@ -958,7 +958,7 @@ def lineBot(op):
                         ret_ += "\n╚══[ Total {} Groups ]".format(str(len(groups)))
                         gye.sendMessage(to, str(ret_))
 #-------------------------------------------------------------------------------
-                elif text.lower() == 'clearban':
+                elif text.lower() == 'ล้างดำ':
                         settings["blacklist"] = {}
                         gye.sendMessage(msg.to,"🔜 Done ✔")
                         ais.sendMessage(msg.to,"🔜 Done ✔")
@@ -973,7 +973,7 @@ def lineBot(op):
                         gye.sendMessage(msg.to,"➲ Gye 1")
                         ais.sendMessage(msg.to,"🔜 Asist 1 ✖ Protect")
  
-                elif text.lower() == 'bancontact':
+                elif text.lower() == 'เชคดำ2':
                         settings["wblacklist"] = True
                         gye.sendMessage(msg.to,"Send Contact")
                         
@@ -981,7 +981,7 @@ def lineBot(op):
                         settings["dblacklist"] = True
                         gye.sendMessage(msg.to,"Send Contact")
 #-------------------------------------------------------------------------------
-                elif text.lower() == 'banlist':
+                elif text.lower() == 'เชคดำ':
                         if settings["blacklist"] == {}:
                             gye.sendMessage(msg.to,"Tidak Ada Banlist")
                         else:
