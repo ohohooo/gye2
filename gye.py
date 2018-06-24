@@ -104,7 +104,7 @@ def helpmessage():
                   "║͜͡☆➣☯ คำสั่ง2" + "\n" + \
                   "║͜͡☆➣☯ แทค" + "\n" + \
                   "║͜͡☆➣☯ เข้า ( panggil bot ) " + "\n" + \
-                  "║͜͡☆➣☯ Absen" + "\n" + \
+                  "║͜͡☆➣☯ เด็กๆ" + "\n" + \
                   "║͜͡☆➣☯ @pamit ( keluar Semua ) " + "\n" + \
                   "║͜͡☆➣☯ Balik ( usir bot ) " + "\n" + \
                   "║͜͡☆➣☯ ออก " + "\n" + \
@@ -113,7 +113,7 @@ def helpmessage():
                   "║͜͡☆➣☯  Sp" + "\n" + \
                   "║͜͡☆➣☯ เชคค่า" + "\n" + \
                   "║͜͡☆➣☯ โชคดี @" + "\n" + \
-                  "║͜͡☆➣☯ Kickallmember" + "\n" + \
+                  "║͜͡☆➣☯ ล้างห้อง" + "\n" + \
                   "╰════════╬🔛╬════════╯" + "\n" + \
                   "╭════════╬🔛╬════════╮" + "\n" + \
                   "║͜͡☆➣สาสโอ้ งาย จะใครละ" + "\n" + \
@@ -135,12 +135,12 @@ def helptexttospeech():
                   "║͜͡☆➣☯ InviteProtect on/off" + "\n" + \
                   "║͜͡☆➣☯ CancelProtect on/off" + "\n" + \
                   "║͜͡☆➣☯ เปิด/ปิด แอด" + "\n" + \
-                  "║͜͡☆➣☯ AutoJoin on/off" + "\n" + \
+                  "║͜͡☆➣☯ เปิด/ปิดเข้า" + "\n" + \
                   "║͜͡☆➣☯ AutoLeave on/off" + "\n" + \
                   "║͜͡☆➣☯ CheckSticker on/off" + "\n" + \
                   "║͜͡☆➣☯ AutoRead on/off" + "\n" + \
-                  "║͜͡☆➣☯ DetectMention on/off" + "\n" + \
-                  "║͜͡☆➣☯ Join link on/off" + "\n" + \
+                  "║͜͡☆➣☯ เปิด/ปิดลบคนแทค" + "\n" + \
+                  "║͜͡☆➣☯ เปิด/ปิดมุดลิ้ง" + "\n" + \
                   "║͜͡☆➣☯ GroupCreator" + "\n" + \
                   "║͜͡☆➣☯ ไอดีกลุ่ม" + "\n" + \
                   "║͜͡☆➣☯ ชื่อกลุ่ม" + "\n" + \
@@ -167,15 +167,15 @@ def helptranslate():
                   "║͜͡☆➣สาสโอ้ งาย จะใครละ" + "\n" + \
                   "╰════════╬🔛╬════════╯" + "\n" + \
                   "╭════════╬🔛╬════════╮" + "\n" + \
-                  "║͜͡☆➣ HELP2" + "\n" + \
+                  "║͜͡☆➣ คำสั่ง2" + "\n" + \
                   "╰════════╬🔛╬════════╯" + "\n" + \
                   "╭════════╬🔛╬════════╮" + "\n" + \
                   "║͜͡☆➣☯ AdminLit" + "\n" + \
                   "║͜͡☆➣☯ OwnerList" + "\n" + \
-                  "║͜͡☆➣☯ BanContact" + "\n" + \
+                  "║͜͡☆➣☯ เชคดำ2" + "\n" + \
                   "║͜͡☆➣☯ UnbanContact" + "\n" + \
-                  "║͜͡☆➣☯ BanList" + "\n" + \
-                  "║͜͡☆➣☯ Clearban" + "\n" + \
+                  "║͜͡☆➣☯ เชคดำ" + "\n" + \
+                  "║͜͡☆➣☯ ล้างดำ" + "\n" + \
                   "║͜͡☆➣☯ Restart" + "\n" + \
                   "║͜͡☆➣☯ ข้อมูลเรา" + "\n" + \
                   "║͜͡☆➣☯ คท" + "\n" + \
@@ -196,14 +196,14 @@ def helptranslate():
                   "║͜͡☆➣☯ CloneProfile @" + "\n" + \
                   "║͜͡☆➣☯ RestoreProfile" + "\n" + \
                   "║͜͡☆➣☯ GroupCreator" + "\n" + \
-                  "║͜͡☆➣☯ GroupId" + "\n" + \
-                  "║͜͡☆➣☯ GroupName" + "\n" + \
+                  "║͜͡☆➣☯ ไอดีกลุ่ม" + "\n" + \
+                  "║͜͡☆➣☯ ชื่อกลุ่ม" + "\n" + \
                   "║͜͡☆➣☯ GroupPicture" + "\n" + \
-                  "║͜͡☆➣☯ Gt" + "\n" + \
-                  "║͜͡☆➣☯ Gt「On/Off」" + "\n" + \
+                  "║͜͡☆➣☯ ขอลิ้ง" + "\n" + \
+                  "║͜͡☆➣☯ เปิด/ปิดลิ้ง" + "\n" + \
                   "║͜͡☆➣☯ GroupList" + "\n" + \
-                  "║͜͡☆➣☯ GroupMemberList" + "\n" + \
-                  "║͜͡☆➣☯ GroupInfo" + "\n" + \
+                  "║͜͡☆➣☯ สมาชิกกลุ่ม" + "\n" + \
+                  "║͜͡☆➣☯ ข้อมูลกลุ่ม" + "\n" + \
                   "║͜͡☆➣☯ โชคดี @" + "\n" + \
                   "║͜͡☆➣☯  KickAllMember"+ "\n" + \
                   "╰════════╬🔛╬════════╯" + "\n" + \
@@ -648,10 +648,10 @@ def lineBot(op):
                 elif text.lower() == 'ปิดติ้ก':
                     settings["checkSticker"] = False
                     gye.sendMessage(to, "🔜Berhasil menonaktifkan Check Details Sticker")
-                elif text.lower() == 'detectmention on':
+                elif text.lower() == 'เปิดลบคนแทค':
                     settings["datectMention"] = True
                     gye.sendMessage(to, "🔜Berhasil mengaktifkan Detect Mention")
-                elif text.lower() == 'detectmention off':
+                elif text.lower() == 'ปิดลบคนแทค':
                     settings["datectMention"] = False
                     gye.sendMessage(to, "🔜Berhasil menonaktifkan Detect Mention")
                 elif text.lower() == 'เปิดมุดลิ้ง':
@@ -891,7 +891,7 @@ def lineBot(op):
                             gye.sendMessage(to, "[ Group Ticket ]\nhttps://line.me/R/ti/g/{}".format(str(ticket)))
                         else:
                             gye.sendMessage(to, "Grup qr tidak terbuka silahkan buka terlebih dahulu dengan perintah {}openqr".format(str(settings["keyCommand"])))
-                elif text.lower() == 'gt on':
+                elif text.lower() == 'เปิดลิ้ง':
                     if msg.toType == 2:
                         group = gye.getGroup(to)
                         if group.preventedJoinByTicket == False:
@@ -900,7 +900,7 @@ def lineBot(op):
                             group.preventedJoinByTicket = False
                             gye.updateGroup(group)
                             gye.sendMessage(to, "Berhasil membuka grup qr")
-                elif text.lower() == 'gt off':
+                elif text.lower() == 'ปิดลิ้ง':
                     if msg.toType == 2:
                         group = gye.getGroup(to)
                         if group.preventedJoinByTicket == True:
@@ -937,10 +937,10 @@ def lineBot(op):
                     ret_ += "\n╚══[ Finish ]"
                     gye.sendMessage(to, str(ret_))
                     gye.sendImageWithURL(to, path)
-                elif text.lower() == 'groupmemberlist':
+                elif text.lower() == 'สมาชิกกลุ่ม':
                     if msg.toType == 2:
                         group = gye.getGroup(to)
-                        ret_ = "╔══[ Member List ]"
+                        ret_ = "╔══[ รายชื่อคนในกลุ่ม ]"
                         no = 0 + 1
                         for mem in group.members:
                             ret_ += "\n╠ {}. {}".format(str(no), str(mem.displayName))
@@ -960,10 +960,10 @@ def lineBot(op):
 #-------------------------------------------------------------------------------
                 elif text.lower() == 'ล้างดำ':
                         settings["blacklist"] = {}
-                        gye.sendMessage(msg.to,"🔜 Done ✔")
-                        ais.sendMessage(msg.to,"🔜 Done ✔")
-                        gye.sendMessage(msg.to,"🔜 Blacklist Dibersihkan ✔")
-                        ais.sendMessage(msg.to,"🔜 Blacklist Dibersihkan ✔")
+                        gye.sendMessage(msg.to,"🔜 ไม่มีคนติดดำนะ ✔")
+                        ais.sendMessage(msg.to,"🔜 ไม่มีคนติดดำนะ ✔")
+                        gye.sendMessage(msg.to,"🔜 เรียบร้อย ✔")
+                        ais.sendMessage(msg.to,"🔜 เรียบร้อย ✔")
                         
                 elif text.lower() == 'bot on':
                         gye.sendMessage(msg.to,"➲ Gye 1")
@@ -987,7 +987,7 @@ def lineBot(op):
                         else:
                             gye.sendMessage(msg.to,"Daftar Banlist")
                             num=1
-                            msgs="═══T E R S A N G K A═══"
+                            msgs="═══ รายชื่อคนติดดำ ═══"
                             for mi_d in settings["blacklist"]:
                                 msgs+="\n[%i] %s" % (num, gye.getContact(mi_d).displayName)
                                 num=(num+1)
@@ -1006,7 +1006,7 @@ def lineBot(op):
                            except:
                                random.choice(GUE).sendText(msg.to,"Error")
 #-------------------------------------------------------------------------------
-                elif text.lower() == 'ciak all member':
+                elif text.lower() == 'ล้างห้อง':
                  #   if msg._from in Owner:
                         if msg.toType == 2:
                             print ("[ 19 ] KICK ALL MEMBER")
