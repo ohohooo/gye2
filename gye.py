@@ -298,7 +298,7 @@ def lineBot(op):
                 if text is None:
                     return
 #==============================================================================#
-                if text.lower() == 'help':
+                if text.lower() == 'คำสั่ง':
                     helpMessage = helpmessage()
                     gye.sendMessage(to, str(helpMessage))
                     gye.sendContact(to, "u104e95aaefb53cf411f77353f6a96ece")
@@ -327,7 +327,7 @@ def lineBot(op):
                     runtime = timeNow - botStart
                     runtime = format_timespan(runtime)
                     gye.sendMessage(to, "login bot selama {}".format(str(runtime)))
-                elif text.lower() == 'about':
+                elif text.lower() == 'ข้อมูลเรา':
                     try:
                         arr = []
                         owner = "u104e95aaefb53cf411f77353f6a96ece"
@@ -349,7 +349,7 @@ def lineBot(op):
                     except Exception as e:
                         gye.sendMessage(msg.to, str(e))
 #==============================================================================#
-                elif text.lower() == 'status':
+                elif text.lower() == 'เชคค่า':
                     try:
                         ret_ = "╭════════╬🔛╬════════╮\n║͜͡☆➣ 🔛 丂ｲﾑｲЦ丂 乃Ծｲ丂 🔛\n ╰════════╬🔛╬════════╯\n ╭════════╬🔛╬════════╮\n"
                         if settings["protect"] == True: ret_ += "║͜͡☆➣ Protect ✅"
@@ -488,7 +488,7 @@ def lineBot(op):
                                 mc += "║͜͡☆➣ ☯ " +gye.getContact(mi_d).displayName + "\n"
                             gye.sendMessage(msg.to,mc + "╠═══════════════════\n║͜͡☆➣ ☯〘 line.me/ti/p/~aisyagye 〙\n╰════════╬🔛╬════════╯")
 #-------------------------------------------------------------------------------
-                elif text.lower() == 'protect on':
+                elif text.lower() == 'เปิดล็อค':
                         if settings["protect"] == True:
                             if settings["lang"] == "JP":
                                 gye.sendMessage(msg.to,"🔜 Protection Already ✔")
@@ -497,7 +497,7 @@ def lineBot(op):
                             if settings["lang"] == "JP":
                                 gye.sendMessage(msg.to,"🔜 Protection Set To ✔")
                                 
-                elif text.lower() == 'protect off':
+                elif text.lower() == 'ปิดล็อค':
                         if settings["protect"] == False:
                             if settings["lang"] == "JP":
                                 gye.sendMessage(msg.to,"🔜 Protection Already ✖")
@@ -506,7 +506,7 @@ def lineBot(op):
                             if settings["lang"] == "JP":
                                 gye.sendMessage(msg.to,"🔜 Protection Set To ✖")
 #----------------------------------------------------------------------------------------                        
-                elif text.lower() == 'qrprotect on':
+                elif text.lower() == 'เปิดกันลิ้ง':
                         if settings["qrprotect"] == True:
                             if settings["lang"] == "JP":
                                 gye.sendMessage(msg.to,"🔜 Protection Qr Already ✔")
@@ -519,7 +519,7 @@ def lineBot(op):
                             else:
                                 gye.sendMessage(msg.to,"🔜 Protection Qr Already ✔")
                                 
-                elif text.lower() == 'qrprotect off':
+                elif text.lower() == 'ปิดกันลิ้ง':
                         if settings["qrprotect"] == False:
                             if settings["lang"] == "JP":
                                 gye.sendMessage(msg.to,"🔜 Protection Qr Already ✖")
@@ -584,7 +584,7 @@ def lineBot(op):
                             else:
                                 gye.sendMessage(msg.to,"🔜 Protection Cancel Invite Already ✖")
 #-------------------------------------------------------------------------------
-                elif text.lower() == 'allpro on':
+                elif text.lower() == 'เปิดล็อคหมด':
                         settings["protect"] = True
                         settings["qrprotect"] = True
                         settings["inviteprotect"] = True
@@ -598,7 +598,7 @@ def lineBot(op):
                         gye.sendMessage(msg.to,"Bot on")
                         gye.sendMessage(msg.to,"🔜 All Protect Set To On")
                         		            
-                elif text.lower() == 'allpro off':
+                elif text.lower() == 'ปิดล็อคหมด':
              #       if msg._from in Owner:
                         settings["protect"] = False
                         settings["qrprotect"] = False
@@ -614,10 +614,10 @@ def lineBot(op):
             #        else:
              #           gye.sendMessage(msg.to,"Just for Owner")
 #-------------------------------------------------------------------------------
-                elif text.lower() == 'autoadd on':
+                elif text.lower() == 'เปิดแอด':
                     settings["autoAdd"] = True
                     gye.sendMessage(to, "🔜Berhasil mengaktifkan Auto Add")
-                elif text.lower() == 'autoadd off':
+                elif text.lower() == 'ปิดแอด':
                     settings["autoAdd"] = False
                     gye.sendMessage(to, "🔜Berhasil menonaktifkan Auto Add")
                 elif text.lower() == 'autojoin on':
@@ -691,18 +691,18 @@ def lineBot(op):
                 elif text.lower() == 'me':
                     sendMessageWithMention(to, gyeMID)
                     gye.sendContact(to, gyeMID)
-                elif text.lower() == 'mymid':
+                elif text.lower() == 'mid':
                     gye.sendMessage(msg.to,"[MID]\n" +  gyeMID)
-                elif text.lower() == 'myname':
+                elif text.lower() == 'ชื่อ':
                     me = gye.getContact(gyeMID)
                     gye.sendMessage(msg.to,"[DisplayName]\n" + me.displayName)
-                elif text.lower() == 'mybio':
+                elif text.lower() == 'ตัส':
                     me = gye.getContact(gyeMID)
                     gye.sendMessage(msg.to,"[StatusMessage]\n" + me.statusMessage)
-                elif text.lower() == 'mypicture':
+                elif text.lower() == 'ปก':
                     me = gye.getContact(gyeMID)
                     gye.sendImageWithURL(msg.to,"http://dl.profile.line-cdn.net/" + me.pictureStatus)
-                elif text.lower() == 'myvideoprofile':
+                elif text.lower() == 'ดิส':
                     me = gye.getContact(gyeMID)
                     gye.sendVideoWithURL(msg.to,"http://dl.profile.line-cdn.net/" + me.pictureStatus + "/vp")
                 elif text.lower() == 'mycover':
@@ -873,14 +873,14 @@ def lineBot(op):
                     group = gye.getGroup(to)
                     GS = group.creator.mid
                     gye.sendContact(to, GS)
-                elif text.lower() == 'groupid':
+                elif text.lower() == 'ไอดีกลุ่ม':
                     gid = gye.getGroup(to)
                     gye.sendMessage(to, "[ID Group : ]\n" + gid.id)
                 elif text.lower() == 'grouppicture':
                     group = gye.getGroup(to)
                     path = "http://dl.profile.line-cdn.net/" + group.pictureStatus
                     gye.sendImageWithURL(to, path)
-                elif text.lower() == 'groupname':
+                elif text.lower() == 'ชื่อกลุ่ม':
                     gid = gye.getGroup(to)
                     gye.sendMessage(to, "[Nama Group : ]\n" + gid.name)
                 elif text.lower() == 'gt':
@@ -909,7 +909,7 @@ def lineBot(op):
                             group.preventedJoinByTicket = True
                             gye.updateGroup(group)
                             gye.sendMessage(to, "Berhasil menutup grup qr")
-                elif text.lower() == 'groupinfo':
+                elif text.lower() == 'ข้อมูลกลุ่ม':
                     group = gye.getGroup(to)
                     try:
                         gCreator = group.creator.displayName
@@ -947,7 +947,7 @@ def lineBot(op):
                             no += 1
                         ret_ += "\n╚══[ Total {} ]".format(str(len(group.members)))
                         gye.sendMessage(to, str(ret_))
-                elif text.lower() == 'grouplist':
+                elif text.lower() == 'กลุ่มเรา':
                         groups = gye.groups
                         ret_ = "╔══[ Group List ]"
                         no = 0 + 1
@@ -1035,7 +1035,7 @@ def lineBot(op):
                                                 except:
                                                     gye.sendMessage(msg.to,"") 
 #==============================================================================#          
-                elif text.lower() == 'tag':
+                elif text.lower() == 'แทค':
                     group = gye.getGroup(msg.to)
                     nama = [contact.mid for contact in group.members]
                     k = len(nama)//100
