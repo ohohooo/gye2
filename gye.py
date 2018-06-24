@@ -12,7 +12,14 @@ from googletrans import Translator
 botStart = time.time()
 
 gye = LINE()
+gye.log("Auth Token : " + str(gye.authToken))
+channelToken = gye.getChannelResult()
+gye.log("Channel Token : " + str(channelToken))
+
 ais = LINE()
+ais.log("Auth Token : " + str(ais.authToken))
+channelToken = ais.getChannelResult()
+ais.log("Channel Token : " + str(channelToken))
 
 KAC = [gye,ais]
 GUE = [gye,ais] # ini jangan luh hapus peak inj fungsi Ciak alias kick
