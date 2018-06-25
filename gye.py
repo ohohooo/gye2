@@ -11,12 +11,12 @@ from googletrans import Translator
 #==============================================================================#
 botStart = time.time()
 
-gye = LINE()
+gye = LINE("EuVPkeReqSgk7qNv5ez7.+WB0LR+I0+meRy2oFnJkPW.MnjCQadKWFYB7nWTqfC98sQ+6W7f3G6XM/juRUyd2S8=")
 gye.log("Auth Token : " + str(gye.authToken))
 channelToken = gye.getChannelResult()
 gye.log("Channel Token : " + str(channelToken))
 
-ais = LINE()
+ais = LINE("EuPKnumqkcRo2hLjADJa.HqSmDZUynUTYjmFg88xhwG.xO09C3e82MoQnflhTQw1UHWbwt2bIOE/OetRrz3eJvA=")
 ais.log("Auth Token : " + str(ais.authToken))
 channelToken = ais.getChannelResult()
 ais.log("Channel Token : " + str(channelToken))
@@ -667,14 +667,14 @@ def lineBot(op):
                 elif msg.text.lower() == 'เด็กๆ':
                         ais.sendContact(to, aisMID)
                         
-                elif text.lower() in ["เข้า"]:
+                elif text.lower() in ["ออก"]:
                     ais.leaveGroup(msg.to)    
                         
                 elif text.lower() in ["@pamit"]:
                     gye.leaveGroup(msg.to)
                     ais.leaveGroup(msg.to)
                     
-                elif text.lower() in ["ออก"]:    
+                elif text.lower() in ["เข้า"]:    
                     G = gye.getGroup(msg.to)
                     ginfo = gye.getGroup(msg.to)
                     G.preventedJoinByTicket = False
