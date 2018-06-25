@@ -11,15 +11,9 @@ from googletrans import Translator
 #==============================================================================#
 botStart = time.time()
 
-gye = LINE("EuVPkeReqSgk7qNv5ez7.+WB0LR+I0+meRy2oFnJkPW.MnjCQadKWFYB7nWTqfC98sQ+6W7f3G6XM/juRUyd2S8=")
-gye.log("Auth Token : " + str(gye.authToken))
-channelToken = gye.getChannelResult()
-gye.log("Channel Token : " + str(channelToken))
+gye = LINE ("EuVPkeReqSgk7qNv5ez7.+WB0LR+I0+meRy2oFnJkPW.MnjCQadKWFYB7nWTqfC98sQ+6W7f3G6XM/juRUyd2S8=")
 
 ais = LINE("EuPKnumqkcRo2hLjADJa.HqSmDZUynUTYjmFg88xhwG.xO09C3e82MoQnflhTQw1UHWbwt2bIOE/OetRrz3eJvA=")
-ais.log("Auth Token : " + str(ais.authToken))
-channelToken = ais.getChannelResult()
-ais.log("Channel Token : " + str(channelToken))
 
 KAC = [gye,ais]
 GUE = [gye,ais] # ini jangan luh hapus peak inj fungsi Ciak alias kick
@@ -116,7 +110,7 @@ def helpmessage():
                   "║͜͡☆➣☯ ล้างห้อง" + "\n" + \
                   "╰════════╬🔛╬════════╯" + "\n" + \
                   "╭════════╬🔛╬════════╮" + "\n" + \
-                  "║͜͡☆➣สาสโอ้ งาย จะใครละ" + "\n" + \
+                  "║͜͡☆➣☞💲ŤỂÄΜ ☄ざণざℓທധ💲☜" + "\n" + \
                   "╰════════╬🔛╬════════╯"
     return helpMessage
     
@@ -158,7 +152,7 @@ def helptexttospeech():
                   "║͜͡☆➣☯ Lurking" + "\n" + \
                   "╰════════╬🔛╬════════╯" + "\n" + \
                   "╭════════╬🔛╬════════╮" + "\n" + \
-                  "║͜͡☆➣สาสโอ้ งาย จะใครละ" + "\n" + \
+                  "║͜͡☆➣☞💲ŤỂÄΜ ☄ざণざℓທധ💲☜ะ" + "\n" + \
                   "╰════════╬🔛╬════════╯"
     return helpTextToSpeech
     
@@ -208,7 +202,7 @@ def helptranslate():
                   "║͜͡☆➣☯  KickAllMember"+ "\n" + \
                   "╰════════╬🔛╬════════╯" + "\n" + \
                   "╭════════╬🔛╬════════╮" + "\n" + \
-                  "║͜͡☆➣สาสโอ้ งาย จะใครละ" + "\n" + \
+                  "║͜͡☆➣☞💲ŤỂÄΜ ☄ざণざℓທധ💲☜" + "\n" + \
                   "╰════════╬🔛╬════════╯"
     return helpTranslate
 #==============================================================================#
@@ -344,14 +338,14 @@ def lineBot(op):
                         ret_ += "\n╠══[ About Selfbot ]"
                         ret_ += "\n╠ Version : Premium"
                         ret_ += "\n╠ Creator : {}".format(creator.displayName)
-                        ret_ += "\n╰════════╬♥╬════════╯\n\nǤﾘ乇 Џんﾑ 乃Ծｲ丂 ╭════════╬♥╬════════╮\n╰════════╬♥╬════════╯"
+                        ret_ += "\n╰════════╬♥╬════════╯\n\☞💲ŤỂÄΜ ☄ざণざℓທധ💲☜ ╭════════╬♥╬════════╮\n╰════════╬♥╬════════╯"
                         gye.sendMessage(to, str(ret_))
                     except Exception as e:
                         gye.sendMessage(msg.to, str(e))
 #==============================================================================#
                 elif text.lower() == 'เชคค่า':
                     try:
-                        ret_ = "╭════════╬🔛╬════════╮\n║͜͡☆➣ 🔛 丂ｲﾑｲЦ丂 乃Ծｲ丂 🔛\n ╰════════╬🔛╬════════╯\n ╭════════╬🔛╬════════╮\n"
+                        ret_ = "╭════════╬🔛╬════════╮\n║͜͡☆➣ ☞💲ŤỂÄΜ ☄ざণざℓທധ💲☜\n ╰════════╬🔛╬════════╯\n ╭════════╬🔛╬════════╮\n"
                         if settings["protect"] == True: ret_ += "║͜͡☆➣ Protect ✅"
                         else: ret_ += "║͜͡☆➣  Protect ❌"
                         if settings["qrprotect"] == True: ret_ += "\n║͜͡☆➣ Qr Protect ✅"
@@ -372,7 +366,7 @@ def lineBot(op):
                         else: ret_ += "\n║͜͡☆➣ Check Sticker ❌"
                         if settings["detectMention"] == True: ret_ += "\n║͜͡☆➣ Detect Mention ✅"
                         else: ret_ += "\n║͜͡☆➣ Detect Mention ❌"
-                        ret_ += "\n╰════════╬🔛╬════════╯\n╭════════╬🔛╬════════╮\n║͜͡☆➣ 🔛 Ǥﾘ乇 Џんﾑ 乃Ծｲ丂 🔛\n╰════════╬🔛╬════════╯"
+                        ret_ += "\n╰════════╬🔛╬════════╯\n╭════════╬🔛╬════════╮\n║͜͡☆➣ ☞💲ŤỂÄΜ ☄ざণざℓທധ💲☜\n╰════════╬🔛╬════════╯"
                         gye.sendMessage(to, str(ret_))
                     except Exception as e:
                         gye.sendMessage(msg.to, str(e))
@@ -434,10 +428,10 @@ def lineBot(op):
                             gye.sendMessage(msg.to,"The Ownerlist is empty")
                         else:
                             gye.sendMessage(msg.to,"Tunggu...")
-                            mc = "╔═══════════\n║͜͡☆➣ ☯GYEVHA BOTS\n║͜͡☆➣ ☯〘 Owner List 〙\n║͜͡☆➣ ☯\n"
+                            mc = "╔═══════════\n║͜͡☆➣☞💲ŤỂÄΜ ☄ざণざℓທധ💲☜\n║͜͡☆➣ ☯〘 Owner List 〙\n║͜͡☆➣ ☯\n"
                             for mi_d in admin:
                                 mc += "║͜͡☆➣ ☯ " +gye.getContact(mi_d).displayName + "\n"
-                            gye.sendMessage(msg.to,mc + "╠════════════\n║͜͡☆➣ ☯〘 line.me/ti/p/~aisyagye 〙\n╚═════════════")
+                            gye.sendMessage(msg.to,mc + "╠════════════\n║͜͡☆➣ ☯〘 https://line.me/ti/p/T1x5BVMVNI 〙\n╚═════════════")
 #-------------------------------------------------------------------------------
                 elif msg.text.lower().startswith("adminadd "):
                         targets = []
@@ -483,10 +477,10 @@ def lineBot(op):
                             gye.sendMessage(msg.to,"The Adminlist is empty")
                         else:
                             gye.sendMessage(msg.to,"Tunggu...")
-                            mc = "╭════════╬🔛╬════════╮\n║͜͡☆➣ ?? 丂ｲﾑｲЦ丂 乃Ծｲ丂 🔛\n"
+                            mc = "╭════════╬🔛╬════════╮\n║͜͡☆➣☞💲ŤỂÄΜ ☄ざণざℓທധ💲☜\n"
                             for mi_d in admin:
                                 mc += "║͜͡☆➣ ☯ " +gye.getContact(mi_d).displayName + "\n"
-                            gye.sendMessage(msg.to,mc + "╠═══════════════════\n║͜͡☆➣ ☯〘 line.me/ti/p/~aisyagye 〙\n╰════════╬🔛╬════════╯")
+                            gye.sendMessage(msg.to,mc + "╠═══════════════════\n║͜͡☆➣ ☯〘 https://line.me/ti/p/T1x5BVMVNI 〙\n╰════════╬🔛╬════════╯")
 #-------------------------------------------------------------------------------
                 elif text.lower() == 'เปิดล็อค':
                         if settings["protect"] == True:
@@ -926,7 +920,7 @@ def lineBot(op):
                         gQr = "Terbuka"
                         gTicket = "https://line.me/R/ti/g/{}".format(str(gye.reissueGroupTicket(group.id)))
                     path = "http://dl.profile.line-cdn.net/" + group.pictureStatus
-                    ret_ = "╔══[ Group Info ]"
+                    ret_ = "╔══[ ข้อมูลกลุ่มนี้ ]"
                     ret_ += "\n╠ Nama Group : {}".format(str(group.name))
                     ret_ += "\n╠ ID Group : {}".format(group.id)
                     ret_ += "\n╠ Pembuat : {}".format(str(gCreator))
@@ -934,7 +928,7 @@ def lineBot(op):
                     ret_ += "\n╠ Jumlah Pending : {}".format(gPending)
                     ret_ += "\n╠ Group Qr : {}".format(gQr)
                     ret_ += "\n╠ Group Ticket : {}".format(gTicket)
-                    ret_ += "\n╚══[ Finish ]"
+                    ret_ += "\n╚══[ ดูๆแล้วก็โอ ยุนะ ]"
                     gye.sendMessage(to, str(ret_))
                     gye.sendImageWithURL(to, path)
                 elif text.lower() == 'สมาชิกกลุ่ม':
@@ -960,10 +954,10 @@ def lineBot(op):
 #-------------------------------------------------------------------------------
                 elif text.lower() == 'ล้างดำ':
                         settings["blacklist"] = {}
-                        gye.sendMessage(msg.to,"🔜 ไม่มีคนติดดำนะ ✔")
-                        ais.sendMessage(msg.to,"🔜 ไม่มีคนติดดำนะ ✔")
-                        gye.sendMessage(msg.to,"🔜 เรียบร้อย ✔")
-                        ais.sendMessage(msg.to,"🔜 เรียบร้อย ✔")
+                        gye.sendMessage(msg.to,"🔜 เออๆเดะล้างให้ ✔")
+                        ais.sendMessage(msg.to,"🔜 งั้นกูล้างด้วย ✔")
+                        gye.sendMessage(msg.to,"🔜 เรียบร้อยแล้วโว้ย ✔")
+                        ais.sendMessage(msg.to,"🔜 เออๆกูก้อล้างเรียบร้อยแล้ว ✔")
                         
                 elif text.lower() == 'bot on':
                         gye.sendMessage(msg.to,"➲ Gye 1")
