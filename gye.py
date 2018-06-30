@@ -11,9 +11,19 @@ from googletrans import Translator
 #==============================================================================#
 botStart = time.time()
 
-gye = LINE ("EuVPkeReqSgk7qNv5ez7.+WB0LR+I0+meRy2oFnJkPW.MnjCQadKWFYB7nWTqfC98sQ+6W7f3G6XM/juRUyd2S8=")
+#gye = LINE()
+#gye = LINE("AuthToken")
+#gye = LINE("Email","Password")
+gye = LINE("ไส่โทเค่น")
+gye.log("Auth Token : " + str(line.authToken))
+channelToken = gye.getChannelResult()
+gye.log("Channel Token : " + str(channelToken))
 
-ais = LINE("EuPKnumqkcRo2hLjADJa.HqSmDZUynUTYjmFg88xhwG.xO09C3e82MoQnflhTQw1UHWbwt2bIOE/OetRrz3eJvA=")
+ais = LINE()
+ais.log("Auth Token : " + str(line.authToken))
+channelToken = ais.getChannelResult() 
+ais.log("Channel Token : " + str(channelToken))
+
 
 KAC = [gye,ais]
 GUE = [gye,ais] # ini jangan luh hapus peak inj fungsi Ciak alias kick
